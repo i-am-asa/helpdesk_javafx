@@ -1,0 +1,42 @@
+/* calculator_styles.css */
+
+/* Define styles for the display field */
+.text-field {
+    -fx-font-size: 20px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-alignment: center-right;
+    -fx-text-fill: white; /* White text */
+    -fx-background-color: #000000; /* Black background */
+}
+
+/* Define styles for the buttons */
+.button {
+    -fx-font-size: 16px;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 50px;
+    -fx-background-color: #333333; /* Darker gray for standard functions */
+    -fx-text-fill: #cccccc; /* Light gray text */
+    /* Add hover effect */
+    -fx-background-radius: 5; /* Rounded corners */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.3) , 3, 0.0 , 0 , 1);
+}
+.button:hover {
+    -fx-background-color: #666666; /* Darker gray on hover */
+}
+
+/* Define styles for specific buttons */
+.clear-button {
+    -fx-background-color: #555555; /* Even darker gray for advanced functions */
+}
+.clear-button:hover {
+    -fx-background-color: #777777; /* Darker gray on hover */
+}
+
+.operation-button {
+    -fx-background-color: #FF9500; /* Light orange for basic arithmetic operations */
+    -fx-text-fill: black;
+}
+.operation-button:hover {
+    -fx-background-color: #FFA733; /* Lighter orange on hover */
+}
